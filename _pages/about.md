@@ -13,9 +13,7 @@ I am currently pursuing a doctor’s degree at the School of Computer Science, Z
 
 Publications
 ======
-<ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+
 
 Getting started
 ======
