@@ -14,73 +14,98 @@ I am currently pursuing a doctor’s degree at the School of Computer Science, Z
 Publications
 ======
 <style>
-/* 条目容器：每个论文为一个独立的块 */
+/* 每个论文条目容器 */
 .publication-item {
-    margin-bottom: 3rem;    /* 条目之间的间距，可自行调整 */
-    break-inside: avoid;    /* 打印/分页时避免折断 */
+    display: flex;           /* 使用flex布局实现图片和文字并排 */
+    gap: 20px;              /* 图片和右侧内容之间的间距 */
+    margin-bottom: 3rem;    /* 条目之间的较大间距 */
+    align-items: flex-start; /* 顶部对齐，避免拉伸 */
 }
 
-/* 组内元素紧凑排列 */
-.publication-item p {
-    margin: 0 0 0.5rem 0;   /* 下边距稍小，保持紧凑 */
+/* 图片容器 */
+.publication-item .image {
+    flex: 0 0 150px;        /* 固定图片宽度为150px（可根据需要调整） */
+}
+
+.publication-item .image img {
+    width: 100%;            /* 图片填满容器宽度 */
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* 右侧文字和链接容器 */
+.publication-item .content {
+    flex: 1;                /* 占据剩余空间 */
+}
+
+/* 论文标题/作者行 */
+.publication-item .citation {
+    margin: 0 0 8px 0;
     line-height: 1.4;
 }
 
-.publication-item figure {
-    margin: 0.5rem 0;       /* 图片上下间距小 */
-}
-
-.publication-item img {
-    max-width: 80%;         /* 限制图片最大宽度，更美观 */
-    height: auto;
-    border-radius: 8px;     /* 可选：圆角 */
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1); /* 可选：阴影 */
-}
-
+/* 链接区域 */
 .publication-item .links {
-    margin-top: 0.25rem;    /* 链接与图片的间距小 */
+    margin-top: 5px;
 }
 
 .publication-item .links a {
-    margin-right: 1rem;     /* 链接之间的间距 */
+    margin-right: 12px;
     text-decoration: none;
-    border-bottom: 1px solid #0366d6; /* 可选：下划线效果 */
+    border-bottom: 1px solid #0366d6;
+}
+
+/* 响应式：当屏幕过窄时，改为上下堆叠 */
+@media (max-width: 600px) {
+    .publication-item {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .publication-item .image {
+        flex-basis: auto;
+        max-width: 200px;
+    }
 }
 </style>
 
-<!-- ===== 第一个论文条目 ===== -->
+<!-- 第一个论文条目 -->
 <div class="publication-item">
-    <p>
-        Sifan Chen, Guoyue Luo, Yuan Kong*, Qiang Zou*, 
-        "A Quasi-Optimal Shape Design Method for Lattice Structure Construction", 
-        <em>ASME Trans. JMD</em> (2025)
-    </p>
-    <figure>
+    <div class="image">
         <a href="/images/gallery/paper1.png">
             <img src="/images/gallery/paper1.png" alt="论文1配图">
         </a>
-    </figure>
-    <div class="links">
-        <a href="https://doi.org/10.1115/1.4068955">Paper</a>
-        <a href="https://github.com/Qiang-Zou/LatticeConstruction">Code</a>
+    </div>
+    <div class="content">
+        <div class="citation">
+            Sifan Chen, Guoyue Luo, Yuan Kong*, Qiang Zou*, 
+            "A Quasi-Optimal Shape Design Method for Lattice Structure Construction", 
+            <em>ASME Trans. JMD</em> (2025)
+        </div>
+        <div class="links">
+            <a href="https://doi.org/10.1115/1.4068955">Paper</a>
+            <a href="https://github.com/Qiang-Zou/LatticeConstruction">Code</a>
+        </div>
     </div>
 </div>
 
-<!-- ===== 第二个论文条目 ===== -->
+<!-- 第二个论文条目 -->
 <div class="publication-item">
-    <p>
-        Qiang Zou*, Yunzhu Gao, Guoyue Luo, Sifan Chen, 
-        "Meta-meshing and triangulating lattice structures at a large scale", 
-        <em>Computer-Aided Design</em> (2024)
-    </p>
-    <figure>
+    <div class="image">
         <a href="/images/gallery/paper2.png">
             <img src="/images/gallery/paper2.png" alt="论文2配图">
         </a>
-    </figure>
-    <div class="links">
-        <a href="https://doi.org/10.1016/j.cad.2024.103732">Paper</a>
-        <a href="https://github.com/Qiang-Zou/MetaMesh">Code</a>
+    </div>
+    <div class="content">
+        <div class="citation">
+            Qiang Zou*, Yunzhu Gao, Guoyue Luo, Sifan Chen, 
+            "Meta-meshing and triangulating lattice structures at a large scale", 
+            <em>Computer-Aided Design</em> (2024)
+        </div>
+        <div class="links">
+            <a href="https://doi.org/10.1016/j.cad.2024.103732">Paper</a>
+            <a href="https://github.com/Qiang-Zou/MetaMesh">Code</a>
+        </div>
     </div>
 </div>
 
