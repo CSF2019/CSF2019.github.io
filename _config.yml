@@ -26,9 +26,10 @@ author:
   avatar           : "profile.png"
   name             : "Sifan Chen"
   pronouns         : # example: "she/her"  
-  bio              : #"Short biography for the left-hand sidebar"
+  bio              : "AI & Geometric Modeling"
   location         : "HangZhou, China"
   employer         : "Zhejiang University"
+  
   employer         : "School of Computer Science"
   uri              : # URL
   email            : "chen_sifan@zju.edu.cn" 
