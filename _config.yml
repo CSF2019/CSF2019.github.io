@@ -28,7 +28,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "AI & Geometric Modeling"
   location         : "HangZhou, China"
-  employer         : "Zhejiang University" "School of Computer Science"
+  employer         : "Zhejiang University" 
   uri              : # URL
   email            : "chen_sifan@zju.edu.cn" 
 
@@ -87,7 +87,7 @@ publication_category:
   books:
     title: 'Books'
   manuscripts:
-    title: 'A Quasi-Optimal Shape Design Method for Lattice Structure Construction'    
+    title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
 
