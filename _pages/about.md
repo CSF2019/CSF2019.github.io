@@ -18,7 +18,7 @@ Publications
   <!-- 单个图片项 -->
   <figure>
     <a href="/images/portfolio/paper1.png">
-      <img src="/images/portfolio/paper1.png" alt="图片1的描述">
+      <img src="/images/portfolio/paper1.png" alt="图片1的描述" style="width: 20%; border-radius: 8px;">
     </a>
     <figcaption></figcaption>
   </figure>
