@@ -17,8 +17,7 @@ Sifan Chen, Guoyue Luo, Yuan Kong*, Qiang Zou*, A Quasi-Optimal Shape Design Met
   <figure>
     <a href="/images/gallery/paper1.png">
       <img src="/images/gallery/paper1.png" alt="图片1的描述" style="width: 25%">
-    </a>
-    <figcaption></figcaption>
+    </a> 
   </figure>
 
 [Paper](https://doi.org/10.1115/1.4068955) [Code](https://github.com/Qiang-Zou/LatticeConstruction)
@@ -28,7 +27,6 @@ Qiang Zou*, Yunzhu Gao, Guoyue Luo, Sifan Chen, Meta-meshing and triangulating l
     <a href="/images/gallery/paper2.png">
       <img src="/images/gallery/paper2.png" alt="图片1的描述" style="width: 25%">
     </a>
-    <figcaption></figcaption>
 </figure>
 
 [Paper](https://doi.org/10.1016/j.cad.2024.103732) [Code](https://github.com/Qiang-Zou/MetaMesh)
