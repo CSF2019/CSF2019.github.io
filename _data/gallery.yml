@@ -1,0 +1,8 @@
+- url: /images/gallery/paper1.png
+  image_path: /images/gallery/paper1.png
+  alt: ""
+  title: ""
+- url: /images/gallery/your-image-2.jpg
+  image_path: /images/gallery/your-image-2.jpg
+  alt: "描述你的第二张图片"
+  title: "图片标题 2"
