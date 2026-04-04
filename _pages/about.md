@@ -13,23 +13,78 @@ I am currently pursuing a doctor’s degree at the School of Computer Science, Z
 
 Publications
 ======
-Sifan Chen, Guoyue Luo, Yuan Kong*, Qiang Zou*, A Quasi-Optimal Shape Design Method for Lattice Structure Construction, ASME Trans. JMD (2025)
-  <figure>
-    <a href="/images/gallery/paper1.png">
-      <img src="/images/gallery/paper1.png" alt="图片1的描述" style="width: 25%">
-    </a> 
-  </figure>
+<style>
+/* 条目容器：每个论文为一个独立的块 */
+.publication-item {
+    margin-bottom: 3rem;    /* 条目之间的间距，可自行调整 */
+    break-inside: avoid;    /* 打印/分页时避免折断 */
+}
 
-[Paper](https://doi.org/10.1115/1.4068955) [Code](https://github.com/Qiang-Zou/LatticeConstruction)
+/* 组内元素紧凑排列 */
+.publication-item p {
+    margin: 0 0 0.5rem 0;   /* 下边距稍小，保持紧凑 */
+    line-height: 1.4;
+}
 
-Qiang Zou*, Yunzhu Gao, Guoyue Luo, Sifan Chen, Meta-meshing and triangulating lattice structures at a large scale, Computer-Aided Design (2024)
-<figure>
-    <a href="/images/gallery/paper2.png">
-      <img src="/images/gallery/paper2.png" alt="图片1的描述" style="width: 25%">
-    </a>
-</figure>
+.publication-item figure {
+    margin: 0.5rem 0;       /* 图片上下间距小 */
+}
 
-[Paper](https://doi.org/10.1016/j.cad.2024.103732) [Code](https://github.com/Qiang-Zou/MetaMesh)
+.publication-item img {
+    max-width: 80%;         /* 限制图片最大宽度，更美观 */
+    height: auto;
+    border-radius: 8px;     /* 可选：圆角 */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1); /* 可选：阴影 */
+}
+
+.publication-item .links {
+    margin-top: 0.25rem;    /* 链接与图片的间距小 */
+}
+
+.publication-item .links a {
+    margin-right: 1rem;     /* 链接之间的间距 */
+    text-decoration: none;
+    border-bottom: 1px solid #0366d6; /* 可选：下划线效果 */
+}
+</style>
+
+<!-- ===== 第一个论文条目 ===== -->
+<div class="publication-item">
+    <p>
+        Sifan Chen, Guoyue Luo, Yuan Kong*, Qiang Zou*, 
+        "A Quasi-Optimal Shape Design Method for Lattice Structure Construction", 
+        <em>ASME Trans. JMD</em> (2025)
+    </p>
+    <figure>
+        <a href="/images/gallery/paper1.png">
+            <img src="/images/gallery/paper1.png" alt="论文1配图">
+        </a>
+    </figure>
+    <div class="links">
+        <a href="https://doi.org/10.1115/1.4068955">Paper</a>
+        <a href="https://github.com/Qiang-Zou/LatticeConstruction">Code</a>
+    </div>
+</div>
+
+<!-- ===== 第二个论文条目 ===== -->
+<div class="publication-item">
+    <p>
+        Qiang Zou*, Yunzhu Gao, Guoyue Luo, Sifan Chen, 
+        "Meta-meshing and triangulating lattice structures at a large scale", 
+        <em>Computer-Aided Design</em> (2024)
+    </p>
+    <figure>
+        <a href="/images/gallery/paper2.png">
+            <img src="/images/gallery/paper2.png" alt="论文2配图">
+        </a>
+    </figure>
+    <div class="links">
+        <a href="https://doi.org/10.1016/j.cad.2024.103732">Paper</a>
+        <a href="https://github.com/Qiang-Zou/MetaMesh">Code</a>
+    </div>
+</div>
+
+<!-- 继续添加更多条目... -->
 
 Getting started
 ======
