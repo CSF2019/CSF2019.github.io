@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently pursuing a doctor’s degree at the School of Computer Science, Zhejiang University (2022-present). I am affiliated with the [State Key Laboratory of CAD & CG](http://www.cad.zju.edu.cn/),where I am supervised by Prof. [Qiang Zou](https://qiang-zou.github.io/) .Prior to this, I completed my undergraduate studies at Jiangnan University(2015-2019), and experienced one and a half year at the School of Ocean, Zhejiang University(2020-2022), as a master student.
+I am currently pursuing a doctor’s degree at the School of Computer Science, Zhejiang University (2022-present). I am affiliated with the [State Key Laboratory of CAD & CG](http://www.cad.zju.edu.cn/), where I am supervised by Prof. [Qiang Zou](https://qiang-zou.github.io/) . Prior to this, I completed my undergraduate studies at Jiangnan University(2015-2019), and experienced one and a half year at the School of Ocean, Zhejiang University(2020-2022), as a master student.
 
  My research interests include but are not limited to geometric modeling, implicit neural representations, generative AI, and parallel computing. Currently, I’m working on lattice structure modeling, including automatic design, compression, generation and editing.
 
