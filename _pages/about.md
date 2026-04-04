@@ -13,7 +13,18 @@ I am currently pursuing a doctor’s degree at the School of Computer Science, Z
 
 Publications
 ======
-
+<!-- 画廊容器 -->
+<div class="gallery">
+  <!-- 单个图片项 -->
+  <figure>
+    <a href="/images/portfolio/paper1.png">
+      <img src="/images/portfolio/paper1.png" alt="图片1的描述"style="width: 25%; border-radius: 8px;">
+    </a>
+    <figcaption>这是图片1的简短说明。</figcaption>
+  </figure>
+  
+  <!-- 继续添加更多 <figure> 块 -->
+</div>
 
 Getting started
 ======
