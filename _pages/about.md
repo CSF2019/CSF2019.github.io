@@ -14,7 +14,6 @@ I am currently pursuing a doctor’s degree at the School of Computer Science, Z
 Publications
 ======
 Sifan Chen, Guoyue Luo, Yuan Kong*, Qiang Zou*, A Quasi-Optimal Shape Design Method for Lattice Structure Construction, ASME Trans. JMD (2025)
-
 <!-- 画廊容器 -->
 <div class="gallery">
   <!-- 单个图片项 -->
