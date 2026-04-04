@@ -19,7 +19,7 @@ Sifan Chen, Guoyue Luo, Yuan Kong*, Qiang Zou*, A Quasi-Optimal Shape Design Met
   <!-- 单个图片项 -->
   <figure>
     <a href="/images/gallery/paper1.png">
-      <img src="/images/gallery/paper1.png" alt="图片1的描述" style="width: 25%;">
+      <img src="/images/gallery/paper1.png" alt="图片1的描述" style="width: 25%">
     </a>
     <figcaption></figcaption>
   </figure>
@@ -34,7 +34,7 @@ Qiang Zou*, Yunzhu Gao, Guoyue Luo, Sifan Chen, Meta-meshing and triangulating l
   <!-- 单个图片项 -->
   <figure>
     <a href="/images/gallery/paper2.png">
-      <img src="/images/gallery/paper2.png" alt="图片1的描述" style="width: 25%;">
+      <img src="/images/gallery/paper2.png" alt="图片1的描述" style="width: 25%">
     </a>
     <figcaption></figcaption>
   </figure>
