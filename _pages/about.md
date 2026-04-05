@@ -133,9 +133,9 @@ Publications
 
 Skills
 ======
-- Familiar with C/C++, Python, CUDA programing, Pytorch framework
-- Familiar with mesh processing techniques, heuristic algorithms, diffusion models, InstantNGP, QAT
-- Getting familiar with 3DGS, 3DGS Compression 
-- Familiar with CAD tools like NX, meshlab
-- CET 6 score: 535,  Graduate English Entrance Examination: 77
+* Familiar with C/C++, Python, CUDA programing, Pytorch framework
+* Familiar with mesh processing techniques, heuristic algorithms, diffusion models, InstantNGP, QAT
+* Getting familiar with 3DGS, 3DGS Compression 
+* Familiar with CAD tools like NX, meshlab
+* CET 6 score: 535,  Graduate English Entrance Examination: 77
 
