@@ -109,6 +109,26 @@ Publications
     </div>
 </div>
 
+<!-- 第三个论文条目 -->
+<div class="publication-item">
+    <div class="image">
+        <a href="/images/gallery/paper3.png">
+            <img src="/images/gallery/paper3.png" alt="论文3配图">
+        </a>
+    </div>
+    <div class="content">
+        <div class="citation">
+            Yaonaiming Zhao, Qiang Zou*, Guoyue Luo, Jiayu Wu, Sifan Chen, Depeng Gao, Minghao Xuan, Fuyu Wang, 
+            "TPMS2STEP: error-controlled and C2 continuity-preserving translation of TPMS models to STEP files based on constrained-PIA",  
+            <em>Computer-Aided Design</em> (2024)
+        </div>
+        <div class="links">
+            <a href="https://doi.org/10.1016/j.cad.2024.103726">Paper</a>
+            <a href="https://github.com/Qiang-Zou/TPMS2STEP">Code</a>
+        </div>
+    </div>
+</div>
+
 <!-- 继续添加更多条目... -->
 
 Getting started
